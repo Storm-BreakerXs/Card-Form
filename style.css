@@ -189,4 +189,122 @@ form {
 
 .complete {
   display: none;
+  text-align: center;
+  margin-top: 4.5rem;
+  padding: 0 0.09rem;
+}
+
+.complete img {
+  margin: 0 auto;
+}
+
+.complete h1 {
+  margin-bottom: 2.4rem;
+}
+
+.complete p {
+  margin-bottom: 5rem;
+
+  color: var(--Dark-grayish-violet);
+}
+
+@media screen and (min-width: 1400px) {
+  body {
+    background-image: url(images/bg-main-desktop.png);
+
+    background-size: 33.5% 100%;
+    background-repeat: no-repeat;
+  }
+
+  main {
+    max-width: 111.2rem;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 12.7rem;
+    height: 100vh;
+  }
+
+  .cards {
+    height: 52.8rem;
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: max-content;
+    gap: 3.8rem;
+  }
+
+  .card-front,
+  .back-cards {
+    max-width: max-content;
+  }
+
+  .card-front {
+    position: relative;
+    top: 0;
+  }
+
+  .back-cards {
+    margin-left: 9.4rem;
+  }
+
+  .back-cards .cvv {
+    font-size: 1.4rem;
+    padding-right: 5.8rem;
+  }
+
+  .card-details {
+    padding: 2.8rem 3.2rem;
+  }
+
+  .card-details img {
+    width: max-content;
+    margin-bottom: 7rem;
+  }
+
+  .card-number {
+    font-size: 2.8rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .info {
+    font-size: 1.4rem;
+    letter-spacing: 0.14em;
+  }
+
+  form {
+    margin-top: 0.3rem;
+    padding: 0;
+    max-width: 38.1em;
+  }
+
+  .form-group {
+    margin: 0;
+    margin-bottom: 2.8rem;
+  }
+
+  .form-exp-date {
+    gap: 2rem;
+  }
+
+  .date {
+    gap: 1rem;
+  }
+
+  #month,
+  #year {
+    width: 8rem;
+  }
+
+  .btn {
+    margin: 0;
+    margin-top: 1.2rem;
+  }
+
+  .complete {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 38.1rem;
+  }
 }
